@@ -140,8 +140,8 @@
         "displayName": "Red Hat"
       },
       "extensionName": "redhat-sandbox",
-      "displayName": "Red Hat OpenShift Sandbox",
-      "shortDescription": "OpenShift Sandbox sign up and provisioning",
+      "displayName": "Developer Sandbox",
+      "shortDescription": "Developer Sandbox sign up and provisioning",
       "license": "Apache-2.0",
       "categories": ["Kubernetes"],
       "keywords": ["redhat", "sandbox", "provider", "remote"],
@@ -355,6 +355,26 @@
       "keywords": ["kubernetes", "minikube", "provider", "local"],
       "versions": [
         {
+          "version": "0.4.0",
+          "preview": false,
+          "lastUpdated": "2024-11-13T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/podman-desktop-extension-minikube:0.4.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/0.4.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/0.4.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/0.4.0/LICENSE"
+            }
+          ]
+        },
+        {
           "version": "0.3.0",
           "preview": false,
           "lastUpdated": "2024-05-02T00:00:00Z",
@@ -448,6 +468,27 @@
       "categories": ["Containers"],
       "keywords": ["bootc", "bootable", "OS", "disk"],
       "versions": [
+        {
+          "version": "1.6.0",
+          "podmanDesktopVersion": "^1.14.0",
+          "preview": false,
+          "lastUpdated": "2024-12-19T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/podman-desktop-extension-bootc:1.6.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.6.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.6.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.6.0/LICENSE"
+            }
+          ]
+        },
         {
           "version": "1.5.0",
           "podmanDesktopVersion": "^1.12.0",
@@ -704,6 +745,27 @@
       "categories": ["AI", "Machine Learning", "LLM"],
       "keywords": ["AI", "Machine Learning", "LLM"],
       "versions": [
+        {
+          "version": "1.3.4",
+          "podmanDesktopVersion": "^1.13.0",
+          "preview": false,
+          "lastUpdated": "2024-12-06T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.3.4",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.3.4/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.3.4/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.3.4/LICENSE"
+            }
+          ]
+        },
         {
           "version": "1.3.2",
           "podmanDesktopVersion": "^1.13.0",

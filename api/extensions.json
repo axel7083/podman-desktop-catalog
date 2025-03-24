@@ -13,6 +13,26 @@
       "keywords": ["redhat", "authentication", "login"],
       "versions": [
         {
+          "version": "1.0.3",
+          "preview": false,
+          "lastUpdated": "2025-01-21T00:00:00Z",
+          "ociUri": "quay.io/redhat-developer/podman-desktop-redhat-account-ext:1.0.3",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-authentication/1.0.3/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-authentication/1.0.3/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-authentication/1.0.3/LICENSE.txt"
+            }
+          ]
+        },
+        {
           "version": "1.0.2",
           "preview": false,
           "lastUpdated": "2024-05-05T00:00:00Z",
@@ -146,6 +166,26 @@
       "categories": ["Kubernetes"],
       "keywords": ["redhat", "sandbox", "provider", "remote"],
       "versions": [
+        {
+          "version": "0.0.5",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-sandbox-ext:0.0.5",
+          "lastUpdated": "2025-01-16T00:00:00Z",
+          "preview": false,
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/0.0.5/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/0.0.5/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/0.0.5/LICENSE"
+            }
+          ]
+        },
         {
           "version": "0.0.4",
           "ociUri": "ghcr.io/redhat-developer/podman-desktop-sandbox-ext:0.0.4",
@@ -469,6 +509,48 @@
       "keywords": ["bootc", "bootable", "OS", "disk"],
       "versions": [
         {
+          "version": "1.7.0",
+          "podmanDesktopVersion": "^1.14.0",
+          "preview": false,
+          "lastUpdated": "2025-03-04T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/podman-desktop-extension-bootc:1.7.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.7.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.7.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.7.0/LICENSE"
+            }
+          ]
+        },
+        {
+          "version": "1.6.1",
+          "podmanDesktopVersion": "^1.14.0",
+          "preview": false,
+          "lastUpdated": "2025-02-04T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/podman-desktop-extension-bootc:1.6.1",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.6.1/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.6.1/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/1.6.1/LICENSE"
+            }
+          ]
+        },
+        {
           "version": "1.6.0",
           "podmanDesktopVersion": "^1.14.0",
           "preview": false,
@@ -745,6 +827,48 @@
       "categories": ["AI", "Machine Learning", "LLM"],
       "keywords": ["AI", "Machine Learning", "LLM"],
       "versions": [
+        {
+          "version": "1.5.0",
+          "podmanDesktopVersion": "^1.14.0",
+          "preview": false,
+          "lastUpdated": "2025-03-10T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.5.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.5.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.5.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.5.0/LICENSE"
+            }
+          ]
+        },
+        {
+          "version": "1.4.0",
+          "podmanDesktopVersion": "^1.14.0",
+          "preview": false,
+          "lastUpdated": "2025-01-15T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.4.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.4.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.4.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.4.0/LICENSE"
+            }
+          ]
+        },
         {
           "version": "1.3.4",
           "podmanDesktopVersion": "^1.13.0",
@@ -1173,7 +1297,7 @@
         "publisherName": "podman-desktop",
         "displayName": "Podman Desktop"
       },
-      "extensionName": "podman-quadlet",
+      "extensionName": "quadlet",
       "displayName": "Podman Quadlet",
       "shortDescription": "Integrate Podman Quadlets in Podman Desktop",
       "license": "Apache-2.0",
@@ -1198,6 +1322,41 @@
             {
               "assetType": "LICENSE",
               "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/podman-quadlet/0.7.0/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "podman-desktop",
+        "displayName": "Podman Desktop"
+      },
+      "extensionName": "kreate",
+      "displayName": "Kreate",
+      "shortDescription": "Provide templates and documentation to create Kubernetes resources",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["kubernetes", "manifest", "templates", "create"],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "podmanDesktopVersion": "^1.16.0",
+          "preview": false,
+          "lastUpdated": "2025-03-14T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/extension-kreate:0.2.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/kreate/0.2.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/kreate/0.2.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/kreate/0.2.0/LICENSE"
             }
           ]
         }
